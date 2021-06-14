@@ -26,7 +26,7 @@ const renderTravelList = (req, res, responseBody) => {
 const travelList = (req, res) => {
     const path = '/api/trips';
     const requestOptions = {
-        url: '${apiOptions.server}${path}',
+        url: `${apiOptions.server}${path}`,
         method: 'GET',
         json: {},
     };
