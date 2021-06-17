@@ -51,3 +51,4 @@ process.on('SIGTERM', () => {
 connect();
 
 require('./travlr');
+require('./user');
